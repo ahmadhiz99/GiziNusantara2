@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@drawable/background2"
+    >
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_account_circle"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:paddingBottom="20dp"
+            >
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded3"
+                android:hint="Email"
+                android:textColorHint="#ffffff"
+                android:paddingLeft="20dp"
+                android:padding="10dp"
+                android:id="@+id/et_email"
+                android:layout_marginTop="20dp"
+                />
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded3"
+                android:hint="Password"
+                android:textColorHint="#ffffff"
+                android:paddingLeft="20dp"
+                android:padding="10dp"
+                android:id="@+id/et_password"
+                android:layout_marginTop="20dp"
+                />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Masuk"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/rounded4"
+                android:padding="20dp"
+                android:textSize="15dp"
+                android:layout_marginBottom="20dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

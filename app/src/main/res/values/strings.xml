@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Gizi Nusantara</string>
+    <string name="logo_gizi_nusantara">Logo Gizi Nusantara</string>
+    <string name="masuk">Masuk</string>
+    <string name="daftar">Daftar</string>
+    <string name="version">Version 1.0</string>
+</resources>

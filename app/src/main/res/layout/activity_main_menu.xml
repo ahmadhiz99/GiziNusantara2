@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/background3"
+        android:paddingBottom="10dp"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/grafik"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <TableRow
+                    android:layout_weight="1"
+                    android:layout_marginBottom="20dp"
+                    >
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/icon_imt"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:id="@+id/btn_imt"
+                        />
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/icon_kalori"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:id="@+id/btn_kalori"
+                        />
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/icon_activity"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:id="@+id/btn_aktivitas"
+                        />
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/icon_lab"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:id="@+id/btn_lab"
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_weight="1"
+                    >
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/icon_scan"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:id="@+id/btn_scanBarcode"
+                        />
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/icon_news"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:id="@+id/btn_beritaGizi"
+                        />
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/icon_call"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:id="@+id/btn_call"
+                        />
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/icon_account"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:id="@+id/btn_akun"
+                        />
+
+                </TableRow>
+
+            </TableLayout>
+          </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="#bdc3c7"
+        android:paddingBottom="10dp"
+        android:layout_margin="10dp"
+        >
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:background="#bdc3c7"
+            android:paddingBottom="10dp"
+            android:layout_margin="10dp"
+            >
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

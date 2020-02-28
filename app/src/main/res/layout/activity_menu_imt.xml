@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu_imt"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/background3"
+        android:paddingBottom="20dp"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        >
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="IMT (INDEKS MASA TUBUH)"
+         android:textSize="20dp"
+         android:textColor="#ffffff"
+         android:textStyle="bold"
+         android:gravity="center"
+         />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#ffffff"
+            android:layout_marginBottom="20dp"
+            />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            >
+
+            <TableRow
+                android:layout_weight="1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tinggi Badan"
+                    android:textSize="20dp"
+                    android:layout_gravity="center"
+                    android:textColor="#ffffff"
+
+                    />
+
+                <EditText
+                    android:id="@+id/et_tinggi"
+                    android:layout_width="233dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:backgroundTint="#ffffff"
+                    android:inputType="number"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp" />
+            </TableRow>
+
+            <TableRow android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Berat Badan"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/et_berat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:backgroundTint="#ffffff"
+                    android:inputType="number"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp"
+
+                    />
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:id="@+id/btn_hitungIMT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/rounded5"
+            android:text="Hitung IMT"
+            />
+
+    </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical"
+        android:background="#bdc3c7"
+        android:paddingBottom="20dp"
+        android:layout_margin="20dp"
+        >
+
+
+    </LinearLayout>
+
+
+    </LinearLayout>
