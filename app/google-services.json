@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "109487258866",
+    "firebase_url": "https://gizinusantara-de59d.firebaseio.com",
+    "project_id": "gizinusantara-de59d",
+    "storage_bucket": "gizinusantara-de59d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109487258866:android:12194c61a4effc6dbde46b",
+        "android_client_info": {
+          "package_name": "com.example.gizinusantara"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109487258866-uoqcf339nrbec5qmo6codg46ok46qad8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gizinusantara",
+            "certificate_hash": "15c04f52e440b4b393f79a6c6caaeab78b418145"
+          }
+        },
+        {
+          "client_id": "109487258866-tqkpdhfj56vmi6ukuic8oqj6l8jpafrv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe1O9YHE9kuAJJE4EOOzr4GL0MnSm5Cu8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109487258866-tqkpdhfj56vmi6ukuic8oqj6l8jpafrv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

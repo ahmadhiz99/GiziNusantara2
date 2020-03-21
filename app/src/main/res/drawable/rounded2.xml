@@ -3,10 +3,11 @@
     <corners android:radius="10dp"/>
     <padding android:left="0dp" android:top="0dp" android:right="0dp" android:bottom="0dp" />
 
+    <stroke android:color="#ffffff" android:dashGap="2dp" android:width="5dp"/>
 <!--    <solid android:color="#00d2ff"/>-->
     <gradient
         android:angle="180"
-        android:startColor="#928dab  "
-        android:endColor="#00d2ff"
+        android:startColor="#00FFB1"
+        android:endColor="#56D6AF"
         android:type="linear"/>
 </shape>

@@ -6,63 +6,71 @@
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:background="@drawable/background2"
-
     >
-
-    <ImageView
-        android:id="@+id/logo"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="210dp"
-        android:layout_gravity="center"
-        android:src="@drawable/logo"
-        android:layout_marginTop="50dp"
-        android:contentDescription="@string/logo_gizi_nusantara" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/rounded6"
+        android:paddingBottom="50dp"
+        >
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/logo_gizi_nusantara" />
 
-  <LinearLayout
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:orientation="vertical"
-      android:paddingRight="100dp"
-      android:paddingLeft="100dp"
-      android:paddingTop="20dp"
-      android:paddingBottom="20dp"
-      android:layout_marginTop="100dp"
-      >
+    </LinearLayout>
 
-      <Button
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:text="@string/masuk"
-          android:id="@+id/btn_masuk"
-          android:background="@drawable/rounded"
-          />
 
-      <Button
-          android:id="@+id/btn_daftar"
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:layout_marginTop="10dp"
-          android:background="@drawable/rounded2"
-          android:text="@string/daftar"
-          android:layout_marginBottom="20dp"
-          />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        android:paddingLeft="100dp"
+        android:paddingTop="20dp"
+        android:paddingRight="100dp"
+        android:paddingBottom="20dp">
 
-  </LinearLayout>
+        <Button
+            android:id="@+id/btn_masuk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded"
+            android:text="@string/masuk"
+            android:textSize="20sp" />
 
-  <RelativeLayout
+        <Button
+            android:id="@+id/btn_daftar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rounded2"
+            android:outlineSpotShadowColor="#ffffff"
+            android:text="@string/daftar"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
       android:layout_width="match_parent"
       android:layout_height="match_parent"
       android:orientation="vertical">
 
-      <ImageView
-          android:id="@+id/img_namalogo"
-          android:layout_width="match_parent"
-          android:layout_height="40dp"
-          android:layout_above="@+id/tv_version"
-          android:layout_centerHorizontal="true"
-          android:layout_gravity="center"
-          android:src="@drawable/logonama"
-          />
+<!--      <ImageView-->
+<!--          android:id="@+id/img_namalogo"-->
+<!--          android:layout_width="match_parent"-->
+<!--          android:layout_height="40dp"-->
+<!--          android:layout_above="@+id/tv_version"-->
+<!--          android:layout_centerHorizontal="true"-->
+<!--          android:layout_gravity="center"-->
+<!--          android:src="@drawable/logonama"-->
+<!--          />-->
 
       <TextView
           android:id="@+id/tv_version"

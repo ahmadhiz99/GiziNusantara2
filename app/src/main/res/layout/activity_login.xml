@@ -32,16 +32,15 @@
             >
 
             <EditText
+                android:id="@+id/et_emaill"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
                 android:background="@drawable/rounded3"
                 android:hint="Email"
-                android:textColorHint="#ffffff"
-                android:paddingLeft="20dp"
                 android:padding="10dp"
-                android:id="@+id/et_email"
-                android:layout_marginTop="20dp"
-                />
+                android:paddingLeft="20dp"
+                android:textColorHint="#ffffff" />
 
             <EditText
                 android:layout_width="300dp"
@@ -51,7 +50,7 @@
                 android:textColorHint="#ffffff"
                 android:paddingLeft="20dp"
                 android:padding="10dp"
-                android:id="@+id/et_password"
+                android:id="@+id/et_passwordd"
                 android:layout_marginTop="20dp"
                 />
 
@@ -60,15 +59,15 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="Masuk"
+                android:textColor="#ffffff"
                 android:layout_marginTop="30dp"
-                android:background="@drawable/rounded4"
+                android:background="@drawable/rounded"
                 android:padding="20dp"
-                android:textSize="15dp"
+                android:textSize="17dp"
                 android:layout_marginBottom="20dp"
+                android:id="@+id/btn_login"
                 />
 
         </LinearLayout>
-
     </LinearLayout>
-
 </LinearLayout>

@@ -14,7 +14,7 @@
 
         <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         android:background="@drawable/background3"
         android:paddingBottom="10dp"
@@ -45,15 +45,35 @@
                     android:layout_weight="1"
                     android:layout_marginBottom="20dp"
                     >
-                    <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="40dp"
-                        android:background="@drawable/icon_imt"
-                        android:layout_marginRight="20dp"
-                        android:layout_marginLeft="20dp"
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
                         android:layout_weight="1"
-                        android:id="@+id/btn_imt"
+                        >
+                        <Button
+                            android:id="@+id/btn_imt"
+                            android:layout_width="46dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/icon_imt"
                         />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Hitung IMT"
+                            android:gravity="center"
+                            android:textColor="#ffffff"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        >
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
@@ -63,6 +83,21 @@
                         android:layout_weight="1"
                         android:id="@+id/btn_kalori"
                         />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Hitung Kalori"
+                            android:gravity="center"
+                            android:textColor="#ffffff"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        >
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
@@ -72,6 +107,21 @@
                         android:layout_weight="1"
                         android:id="@+id/btn_aktivitas"
                         />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Aktivitas"
+                            android:gravity="center"
+                            android:textColor="#ffffff"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        >
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
@@ -81,12 +131,26 @@
                         android:layout_weight="1"
                         android:id="@+id/btn_lab"
                         />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Laboratorium"
+                            android:gravity="center"
+                            android:textColor="#ffffff"
+                            />
+                    </LinearLayout>
 
                 </TableRow>
 
                 <TableRow
                     android:layout_weight="1"
                     >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
@@ -96,6 +160,21 @@
                         android:layout_weight="1"
                         android:id="@+id/btn_scanBarcode"
                         />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Scan Barcode"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    />
+            </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        >
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
@@ -105,6 +184,21 @@
                         android:layout_weight="1"
                         android:id="@+id/btn_beritaGizi"
                         />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Info Gizi"
+                            android:gravity="center"
+                            android:textColor="#ffffff"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        >
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
@@ -114,6 +208,21 @@
                         android:layout_weight="1"
                         android:id="@+id/btn_call"
                         />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Panggil Nutrisionist"
+                            android:gravity="center"
+                            android:textColor="#ffffff"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        >
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
@@ -123,9 +232,15 @@
                         android:layout_weight="1"
                         android:id="@+id/btn_akun"
                         />
-
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Akun"
+                            android:gravity="center"
+                            android:textColor="#ffffff"
+                            />
+                    </LinearLayout>
                 </TableRow>
-
             </TableLayout>
           </LinearLayout>
 

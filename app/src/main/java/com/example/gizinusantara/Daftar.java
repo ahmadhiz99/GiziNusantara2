@@ -26,6 +26,7 @@ public class Daftar extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (responden.isChecked()){
+                    Toast.makeText(Daftar.this, "Responden Click!" ,Toast.LENGTH_LONG).show();
                     Intent respondenIntent = new Intent(Daftar.this,Daftar_Responden.class);
                     startActivity(respondenIntent);
                 } else if(nutritionist.isChecked()){
